@@ -1248,13 +1248,13 @@ End;
 
 {==============================}
 {                              }
-{ LOADLEVEL / SAVELEVEL        }
+{ loadlevel / savelevel        }
 { Loads map LEVEL into memory, }
 { and sets everything up.      }
 {                              }
 {==============================}
 
-Procedure LoadLevel;
+Procedure loadlevel;
 label
   tryopen,fileread;
 
@@ -1727,13 +1727,13 @@ var
 
 {                              }
 {                              }
-{ LOADLEVEL                    }
+{ loadlevel                    }
 { Loads map LEVEL into memory, }
 { nothing more                 }
 {                              }
 {                              }
 
-Procedure LoadLevel;
+Procedure loadlevel;
 label
   tryopen,fileread;
 Var
@@ -2267,4 +2267,3 @@ Begin
 
 End.
 
-
