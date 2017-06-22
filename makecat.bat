@@ -4,6 +4,6 @@ REM Need to put this in dosbox.conf
 REM MOUNT C ~
 REM PATH=%PATH%;C:\other\retro\dos\TURBOP\TP;C:\other\retro\dos\TURBOP\TASM
 REM
-tasm src\catasm
-tasm src\soundlib
+tasm src\catasm -o obj
+tasm src\soundlib -o obj
 tpc -b src\catacomb
