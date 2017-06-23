@@ -1142,12 +1142,12 @@ end;
 
 {========================================================}
 {                                                        }
-{ BLOAD                                                  }
+{ bload                                                  }
 { Allocates paraligned memory for a file and loads it in }
 {                                                        }
 {========================================================}
 
-function Bload (filename: string): pointer;
+function bload (filename: string): pointer;
 var
   iofile: file;
   len: longint;
@@ -1454,7 +1454,7 @@ End;
 
 Procedure LoadSounds;
 Begin
-  SoundData:=Bload ('SOUNDS.CAT');
+  SoundData:=bload ('SOUNDS.CAT');
 End;
 
 
